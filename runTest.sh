@@ -3,7 +3,7 @@
 # bail on error
 set -e
 
-PATH=$HOME/local/dart/chromium:$PATH
+sudo start xvfb
 DIR=$( cd $( dirname "${BASH_SOURCE[0]}" ) && pwd )
 
 # BROWSER_TEST_FILE=$DIR/../test/harness_browser.html
