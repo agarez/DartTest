@@ -6,7 +6,7 @@ library test;
 //import 'test_shared.dart' as shared;
 
 main() {
-  groupSep = ' - ';
+  //groupSep = ' - ';
   //useHtmlEnhancedConfiguration();
 
   //shared.register();
