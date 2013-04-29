@@ -6,7 +6,7 @@ set -e
 DIR=$( cd $( dirname "${BASH_SOURCE[0]}" ) && pwd )
 
 # BROWSER_TEST_FILE=$DIR/../test/harness_browser.html
-BROWSER_TEST_FILE=$DIR/test.html
+BROWSER_TEST_FILE=$DIR/test/test.html
 
 echo DumpRenderTree must be in your path for this to work
 echo Running against test file at: 
