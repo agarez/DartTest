@@ -1,0 +1,7 @@
+name: droneio_test
+version: 0.0.1
+description: Lorem ipsum
+author: Alejandro García <agarcia@maubic.es>
+homepage: https://github.com/agarez/maubic
+dependencies:
+  unittest: any
