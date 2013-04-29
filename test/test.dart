@@ -1,7 +1,14 @@
-import 'package:unittest/unittest.dart';
+library test_browser;
 
-import 'dart:io';
+import 'package:unittest/html_enhanced_config.dart';
+import 'package:unittest/unittest.dart';
+import 'test_browser.dart' as browser;
+import 'test_shared.dart' as shared;
 
 main() {
-  return(0);
+  groupSep = ' - ';
+  useHtmlEnhancedConfiguration();
+
+  shared.register();
+  browser.register();
 }
