@@ -1,7 +1,8 @@
 import 'package:unittest/unittest.dart';
 
 import 'dart:io';
+//import 'dart:html';
 
 main() {
-  return (true);
+  query('#status').text = 'Hi, Dart';
 }
